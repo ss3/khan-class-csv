@@ -41,7 +41,7 @@ def khan_user(email=None):
 
 out = csv.writer(sys.stdout)
 out.writerow([
-    'Student Progress',
+    'Student',
     'Energy Points',
     'Number of Proficient Exercises',
     'Meteorite Badges',
